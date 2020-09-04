@@ -1,29 +1,17 @@
-# Linux x86_64: development platform for [PlatformIO](http://platformio.org)
+# Portduino development platform for [PlatformIO](http://platformio.org)
 
-Linux x86_64 (64-bit) is a Unix-like and mostly POSIX-compliant computer operating system (OS) assembled under the model of free and open-source software development and distribution. Using host OS (Mac OS X or Linux 64-bit) you can build native application for Linux x86_64 platform.
-
-* [Home](http://platformio.org/platforms/linux_x86_64) (home page in PlatformIO Platform Registry)
-* [Documentation](http://docs.platformio.org/page/platforms/linux_x86_64.html) (advanced usage, packages, boards, frameworks, etc.)
+NOTE: YOU DO NOT WANT THIS YET!  Still a WIP.
 
 # Usage
 
 1. [Install PlatformIO](http://platformio.org)
 2. Create PlatformIO project and configure a platform option in [platformio.ini](http://docs.platformio.org/page/projectconf.html) file:
 
-## Stable version
-
-```ini
-[env:stable]
-platform = linux_x86_64
-board = ...
-...
-```
-
 ## Development version
 
 ```ini
 [env:development]
-platform = https://github.com/platformio/platform-linux_x86_64.git
+platform = https://github.com/geeksville/platform-portduino.git
 board = ...
 ...
 ```
@@ -31,3 +19,8 @@ board = ...
 # Configuration
 
 Please navigate to [documentation](http://docs.platformio.org/page/platforms/linux_x86_64.html).
+
+# TODO
+
+* change to be just a platform.json file and reference the standard linux-64/linux-arm platforms to provide the implementation.
+* possibly just send in PRs for the standard linux projects and add let 'portduino' be a framework for them

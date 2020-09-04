@@ -1,0 +1,15 @@
+{
+  "build": {
+    "core": "FIXMECORE",
+    "extra_flags": "-DFIXMEFLAG",
+    "variant": "linux_x86_64"
+  },
+  "upload": {
+    "maximum_ram_size": 99999999,
+    "maximum_size": 99999999
+  },
+  "frameworks": ["arduino"],
+  "name": "Portduino on x86_64",
+  "url": "https://fixme",
+  "vendor": "FIXMEVENDOR"
+}

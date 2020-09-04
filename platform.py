@@ -16,7 +16,7 @@ from platformio.managers.platform import PlatformBase
 from platformio.util import get_systype
 
 
-class Linux_x86_64Platform(PlatformBase):
+class PortduinoPlatform(PlatformBase):
 
     @property
     def packages(self):
